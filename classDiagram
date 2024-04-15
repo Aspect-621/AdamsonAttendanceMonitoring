@@ -1,0 +1,23 @@
+@startuml
+class Attendance {
+  +CreateGroupBox(): GroupBox
+  +SubmitAttendance(): void
+}
+class Professor {
+  +employeeName: String
+  +employeeID: Int
+  +username: String
+  +password: String
+  +login(): void
+  +DisplayAttendance(): void
+}
+class Student {
+  +studentName: String[]
+  +studentID: String[]
+  +attendanceStatus: int[]
+  +username: String
+  +password: String
+  +login(): void
+  +ViewAttendance(): void
+}
+@enduml
