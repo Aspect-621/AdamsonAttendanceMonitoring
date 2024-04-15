@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eU8NZzItpnByeQZVdPLNNmwn5tmYY84Xx4ynPG8HRPBx6/Lvukw1E/5VPOYjsBthY2ijulnZ1L/gotB2p0DH+g==",
+  "dgSpecHash": "zZqWUsRnFzCRLUpheZnBwQeNAwKkRTGmHUaCSMIgr/sOocPIWHQgJyNYXcXFeRjox7hHEvfuZ2iVX7fZQ0FkDw==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Alyx\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\Alyx\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\Alyx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\Alyx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\kenji\\OneDrive\\Documents\\AdamsonAttendanceMonitoring-main\\Monitoring\\Monitoring\\Monitoring.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -110,13 +110,13 @@ public string[] students = {
         //FOR TEST CASE
       public string[] students = { "Student1", "Student2", "Student3", "Student4", "Student5" };
       public string[] studentID = { "ID1", "ID2", "ID3", "ID4", "ID5" };
-        private int[] selectedIndexes; 
+        private int[] attendanceStatus; 
 
         public Attendance()
         {
             InitializeComponent();
             CreateGroupBoxes();
-            selectedIndexes = new int[students.Length];
+            attendanceStatus = new int[students.Length];
 
         }
         private void CreateGroupBoxes()
@@ -148,7 +148,7 @@ public string[] students = {
                         if (btn.Checked)
                         {
                             int index = (btn.Parent as GroupBox).TabIndex; // Get the index of the group box
-                            selectedIndexes[index] = Array.IndexOf(btn.Parent.Controls.OfType<RadioButton>().ToArray(), btn) + 1; // Store the selected index
+                            attendanceStatus[index] = Array.IndexOf(btn.Parent.Controls.OfType<RadioButton>().ToArray(), btn) + 1; // Store the selected index
                         }
                     };
           
@@ -171,7 +171,7 @@ public string[] students = {
 
             //FOR CHECKING
             AllocConsole();
-            foreach (int selectedIndex in selectedIndexes)
+            foreach (int selectedIndex in attendanceStatus)
             {
                 Console.WriteLine(selectedIndex);
             }
