@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj": {}
+    "C:\\Users\\kenji\\OneDrive\\Documents\\AdamsonAttendanceMonitoring-main\\Monitoring\\Monitoring\\Monitoring.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj": {
+    "C:\\Users\\kenji\\OneDrive\\Documents\\AdamsonAttendanceMonitoring-main\\Monitoring\\Monitoring\\Monitoring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
+        "projectUniqueName": "C:\\Users\\kenji\\OneDrive\\Documents\\AdamsonAttendanceMonitoring-main\\Monitoring\\Monitoring\\Monitoring.csproj",
         "projectName": "Monitoring",
-        "projectPath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
-        "packagesPath": "C:\\Users\\Alyx\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\obj\\",
+        "projectPath": "C:\\Users\\kenji\\OneDrive\\Documents\\AdamsonAttendanceMonitoring-main\\Monitoring\\Monitoring\\Monitoring.csproj",
+        "packagesPath": "C:\\Users\\kenji\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenji\\OneDrive\\Documents\\AdamsonAttendanceMonitoring-main\\Monitoring\\Monitoring\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alyx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,24 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -81,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
