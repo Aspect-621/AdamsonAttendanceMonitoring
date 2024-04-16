@@ -29,541 +29,563 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentViewAttendance));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.SuspendLayout();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            panel1 = new Panel();
+            pictureBox6 = new PictureBox();
+            label1 = new Label();
+            panel2 = new Panel();
+            label2 = new Label();
+            pictureBox4 = new PictureBox();
+            panel3 = new Panel();
+            label3 = new Label();
+            pictureBox5 = new PictureBox();
+            panel4 = new Panel();
+            label4 = new Label();
+            pictureBox7 = new PictureBox();
+            panel5 = new Panel();
+            label6 = new Label();
+            pictureBox8 = new PictureBox();
+            label7 = new Label();
+            label5 = new Label();
+            label8 = new Label();
+            pictureBox10 = new PictureBox();
+            pictureBox9 = new PictureBox();
+            pictureBox11 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            pictureBox13 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            pictureBox15 = new PictureBox();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Black;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 73);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.BackColor = Color.Black;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(176, 55);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox2.Location = new System.Drawing.Point(1, 71);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(200, 421);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.BackColor = Color.LightBlue;
+            pictureBox2.Location = new Point(1, 53);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(175, 316);
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox3.Location = new System.Drawing.Point(198, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(602, 73);
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
+            pictureBox3.BackColor = Color.LightBlue;
+            pictureBox3.Location = new Point(173, 0);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(527, 55);
+            pictureBox3.TabIndex = 21;
+            pictureBox3.TabStop = false;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightBlue;
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 127);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(153, 57);
-            this.panel1.TabIndex = 22;
+            panel1.BackColor = Color.LightBlue;
+            panel1.Controls.Add(pictureBox6);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(10, 95);
+            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(134, 43);
+            panel1.TabIndex = 22;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(61, 57);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 3;
-            this.pictureBox6.TabStop = false;
+            pictureBox6.BackColor = Color.LightBlue;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(0, 0);
+            pictureBox6.Margin = new Padding(3, 2, 3, 2);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(53, 43);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 3;
+            pictureBox6.TabStop = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightBlue;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(67, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 25);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Courses";
+            label1.AutoSize = true;
+            label1.BackColor = Color.LightBlue;
+            label1.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(59, 13);
+            label1.Name = "label1";
+            label1.Size = new Size(62, 20);
+            label1.TabIndex = 8;
+            label1.Text = "Courses";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightBlue;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Location = new System.Drawing.Point(12, 190);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(182, 57);
-            this.panel2.TabIndex = 23;
+            panel2.BackColor = Color.LightBlue;
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(pictureBox4);
+            panel2.Location = new Point(10, 142);
+            panel2.Margin = new Padding(3, 2, 3, 2);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(159, 43);
+            panel2.TabIndex = 23;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightBlue;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(67, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 25);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Attendance";
+            label2.AutoSize = true;
+            label2.BackColor = Color.LightBlue;
+            label2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(59, 12);
+            label2.Name = "label2";
+            label2.Size = new Size(87, 20);
+            label2.TabIndex = 16;
+            label2.Text = "Attendance";
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(61, 57);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            pictureBox4.BackColor = Color.LightBlue;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(0, 0);
+            pictureBox4.Margin = new Padding(3, 2, 3, 2);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(53, 43);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 16;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.LightBlue;
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.pictureBox5);
-            this.panel3.Location = new System.Drawing.Point(12, 253);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(182, 57);
-            this.panel3.TabIndex = 24;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(61, 57);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 25;
-            this.pictureBox5.TabStop = false;
+            panel3.BackColor = Color.LightBlue;
+            panel3.Controls.Add(label3);
+            panel3.Controls.Add(pictureBox5);
+            panel3.Location = new Point(10, 190);
+            panel3.Margin = new Padding(3, 2, 3, 2);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(159, 43);
+            panel3.TabIndex = 24;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightBlue;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(68, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 25);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Mission";
+            label3.AutoSize = true;
+            label3.BackColor = Color.LightBlue;
+            label3.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(60, 10);
+            label3.Name = "label3";
+            label3.Size = new Size(61, 20);
+            label3.TabIndex = 17;
+            label3.Text = "Mission";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackColor = Color.LightBlue;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(0, 0);
+            pictureBox5.Margin = new Padding(3, 2, 3, 2);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(53, 43);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 25;
+            pictureBox5.TabStop = false;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.LightBlue;
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Location = new System.Drawing.Point(12, 316);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(182, 57);
-            this.panel4.TabIndex = 26;
+            panel4.BackColor = Color.LightBlue;
+            panel4.Controls.Add(label4);
+            panel4.Controls.Add(pictureBox7);
+            panel4.Location = new Point(10, 237);
+            panel4.Margin = new Padding(3, 2, 3, 2);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(159, 43);
+            panel4.TabIndex = 26;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.LightBlue;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(68, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 25);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Vision";
+            label4.AutoSize = true;
+            label4.BackColor = Color.LightBlue;
+            label4.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(60, 10);
+            label4.Name = "label4";
+            label4.Size = new Size(51, 20);
+            label4.TabIndex = 17;
+            label4.Text = "Vision";
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(61, 57);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 25;
-            this.pictureBox7.TabStop = false;
+            pictureBox7.BackColor = Color.LightBlue;
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(0, 0);
+            pictureBox7.Margin = new Padding(3, 2, 3, 2);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(53, 43);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 25;
+            pictureBox7.TabStop = false;
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.LightBlue;
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.pictureBox8);
-            this.panel5.Location = new System.Drawing.Point(12, 379);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(182, 60);
-            this.panel5.TabIndex = 27;
+            panel5.BackColor = Color.LightBlue;
+            panel5.Controls.Add(label6);
+            panel5.Controls.Add(pictureBox8);
+            panel5.Location = new Point(10, 284);
+            panel5.Margin = new Padding(3, 2, 3, 2);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(159, 45);
+            panel5.TabIndex = 27;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.LightBlue;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(67, 14);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 25);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Sign Out";
+            label6.AutoSize = true;
+            label6.BackColor = Color.LightBlue;
+            label6.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(59, 10);
+            label6.Name = "label6";
+            label6.Size = new Size(68, 20);
+            label6.TabIndex = 13;
+            label6.Text = "Sign Out";
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(61, 57);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 8;
-            this.pictureBox8.TabStop = false;
+            pictureBox8.BackColor = Color.LightBlue;
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(0, 0);
+            pictureBox8.Margin = new Padding(3, 2, 3, 2);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(53, 43);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 8;
+            pictureBox8.TabStop = false;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.LightBlue;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(360, 18);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(300, 41);
-            this.label7.TabIndex = 28;
-            this.label7.Text = "NAME OF STUDENT";
+            label7.AutoSize = true;
+            label7.BackColor = Color.LightBlue;
+            label7.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(308, 9);
+            label7.Name = "label7";
+            label7.Size = new Size(238, 32);
+            label7.TabIndex = 28;
+            label7.Text = "NAME OF STUDENT";
+            label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.SteelBlue;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(423, 76);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 37);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "OVERALL";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            label5.AutoSize = true;
+            label5.BackColor = Color.SteelBlue;
+            label5.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(370, 57);
+            label5.Name = "label5";
+            label5.Size = new Size(108, 30);
+            label5.TabIndex = 29;
+            label5.Text = "OVERALL";
+            label5.Click += label5_Click;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(479, 113);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 20);
-            this.label8.TabIndex = 30;
-            this.label8.Text = "0%";
+            label8.AutoSize = true;
+            label8.Location = new Point(419, 85);
+            label8.Name = "label8";
+            label8.Size = new Size(23, 15);
+            label8.TabIndex = 30;
+            label8.Text = "0%";
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox10.Location = new System.Drawing.Point(253, 136);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(116, 20);
-            this.pictureBox10.TabIndex = 50;
-            this.pictureBox10.TabStop = false;
+            pictureBox10.BackColor = Color.MintCream;
+            pictureBox10.Location = new Point(221, 102);
+            pictureBox10.Margin = new Padding(3, 2, 3, 2);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(102, 15);
+            pictureBox10.TabIndex = 50;
+            pictureBox10.TabStop = false;
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox9.Location = new System.Drawing.Point(375, 136);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(116, 20);
-            this.pictureBox9.TabIndex = 51;
-            this.pictureBox9.TabStop = false;
+            pictureBox9.BackColor = Color.MintCream;
+            pictureBox9.Location = new Point(328, 102);
+            pictureBox9.Margin = new Padding(3, 2, 3, 2);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(102, 15);
+            pictureBox9.TabIndex = 51;
+            pictureBox9.TabStop = false;
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox11.Location = new System.Drawing.Point(497, 136);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(116, 20);
-            this.pictureBox11.TabIndex = 52;
-            this.pictureBox11.TabStop = false;
+            pictureBox11.BackColor = Color.MintCream;
+            pictureBox11.Location = new Point(435, 102);
+            pictureBox11.Margin = new Padding(3, 2, 3, 2);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(102, 15);
+            pictureBox11.TabIndex = 52;
+            pictureBox11.TabStop = false;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox12.Location = new System.Drawing.Point(619, 136);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(116, 20);
-            this.pictureBox12.TabIndex = 53;
-            this.pictureBox12.TabStop = false;
+            pictureBox12.BackColor = Color.MintCream;
+            pictureBox12.Location = new Point(542, 102);
+            pictureBox12.Margin = new Padding(3, 2, 3, 2);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(102, 15);
+            pictureBox12.TabIndex = 53;
+            pictureBox12.TabStop = false;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.MintCream;
-            this.label9.Location = new System.Drawing.Point(352, 136);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(17, 20);
-            this.label9.TabIndex = 54;
-            this.label9.Text = "0";
+            label9.AutoSize = true;
+            label9.BackColor = Color.MintCream;
+            label9.Location = new Point(308, 102);
+            label9.Name = "label9";
+            label9.Size = new Size(13, 15);
+            label9.TabIndex = 54;
+            label9.Text = "0";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.MintCream;
-            this.label10.Location = new System.Drawing.Point(474, 136);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 20);
-            this.label10.TabIndex = 55;
-            this.label10.Text = "0";
+            label10.AutoSize = true;
+            label10.BackColor = Color.MintCream;
+            label10.Location = new Point(415, 102);
+            label10.Name = "label10";
+            label10.Size = new Size(13, 15);
+            label10.TabIndex = 55;
+            label10.Text = "0";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.MintCream;
-            this.label11.Location = new System.Drawing.Point(596, 136);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(17, 20);
-            this.label11.TabIndex = 56;
-            this.label11.Text = "0";
+            label11.AutoSize = true;
+            label11.BackColor = Color.MintCream;
+            label11.Location = new Point(522, 102);
+            label11.Name = "label11";
+            label11.Size = new Size(13, 15);
+            label11.TabIndex = 56;
+            label11.Text = "0";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.MintCream;
-            this.label12.Location = new System.Drawing.Point(718, 136);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 20);
-            this.label12.TabIndex = 57;
-            this.label12.Text = "0";
+            label12.AutoSize = true;
+            label12.BackColor = Color.MintCream;
+            label12.Location = new Point(628, 102);
+            label12.Name = "label12";
+            label12.Size = new Size(13, 15);
+            label12.TabIndex = 57;
+            label12.Text = "0";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.MintCream;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(280, 139);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 17);
-            this.label13.TabIndex = 58;
-            this.label13.Text = "Present";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label13.AutoSize = true;
+            label13.BackColor = Color.MintCream;
+            label13.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Location = new Point(245, 104);
+            label13.Name = "label13";
+            label13.Size = new Size(45, 13);
+            label13.TabIndex = 58;
+            label13.Text = "Present";
+            label13.TextAlign = ContentAlignment.TopCenter;
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.MintCream;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(406, 138);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 17);
-            this.label14.TabIndex = 59;
-            this.label14.Text = "Absent";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label14.AutoSize = true;
+            label14.BackColor = Color.MintCream;
+            label14.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(355, 104);
+            label14.Name = "label14";
+            label14.Size = new Size(43, 13);
+            label14.TabIndex = 59;
+            label14.Text = "Absent";
+            label14.TextAlign = ContentAlignment.TopCenter;
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.MintCream;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.Location = new System.Drawing.Point(534, 138);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(32, 17);
-            this.label15.TabIndex = 60;
-            this.label15.Text = "Late";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label15.AutoSize = true;
+            label15.BackColor = Color.MintCream;
+            label15.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Location = new Point(467, 104);
+            label15.Name = "label15";
+            label15.Size = new Size(28, 13);
+            label15.TabIndex = 60;
+            label15.Text = "Late";
+            label15.TextAlign = ContentAlignment.TopCenter;
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.MintCream;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(638, 138);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(55, 17);
-            this.label16.TabIndex = 61;
-            this.label16.Text = "Excused";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label16.AutoSize = true;
+            label16.BackColor = Color.MintCream;
+            label16.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Location = new Point(558, 104);
+            label16.Name = "label16";
+            label16.Size = new Size(48, 13);
+            label16.TabIndex = 61;
+            label16.Text = "Excused";
+            label16.TextAlign = ContentAlignment.TopCenter;
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox13.Location = new System.Drawing.Point(291, 181);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(123, 20);
-            this.pictureBox13.TabIndex = 62;
-            this.pictureBox13.TabStop = false;
+            pictureBox13.BackColor = Color.MintCream;
+            pictureBox13.Location = new Point(255, 136);
+            pictureBox13.Margin = new Padding(3, 2, 3, 2);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(108, 15);
+            pictureBox13.TabIndex = 62;
+            pictureBox13.TabStop = false;
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox14.Location = new System.Drawing.Point(423, 181);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(123, 20);
-            this.pictureBox14.TabIndex = 63;
-            this.pictureBox14.TabStop = false;
+            pictureBox14.BackColor = Color.MintCream;
+            pictureBox14.Location = new Point(370, 136);
+            pictureBox14.Margin = new Padding(3, 2, 3, 2);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(108, 15);
+            pictureBox14.TabIndex = 63;
+            pictureBox14.TabStop = false;
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox15.Location = new System.Drawing.Point(561, 181);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(123, 20);
-            this.pictureBox15.TabIndex = 64;
-            this.pictureBox15.TabStop = false;
+            pictureBox15.BackColor = Color.MintCream;
+            pictureBox15.Location = new Point(491, 136);
+            pictureBox15.Margin = new Padding(3, 2, 3, 2);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(108, 15);
+            pictureBox15.TabIndex = 64;
+            pictureBox15.TabStop = false;
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.MintCream;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(301, 181);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(103, 17);
-            this.label17.TabIndex = 65;
-            this.label17.Text = "Date of Meeting";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label17.AutoSize = true;
+            label17.BackColor = Color.MintCream;
+            label17.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label17.Location = new Point(263, 136);
+            label17.Name = "label17";
+            label17.Size = new Size(91, 13);
+            label17.TabIndex = 65;
+            label17.Text = "Date of Meeting";
+            label17.TextAlign = ContentAlignment.TopCenter;
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.MintCream;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(465, 184);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(43, 17);
-            this.label18.TabIndex = 66;
-            this.label18.Text = "Status";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label18.AutoSize = true;
+            label18.BackColor = Color.MintCream;
+            label18.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label18.Location = new Point(407, 138);
+            label18.Name = "label18";
+            label18.Size = new Size(39, 13);
+            label18.TabIndex = 66;
+            label18.Text = "Status";
+            label18.TextAlign = ContentAlignment.TopCenter;
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.MintCream;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(596, 184);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(44, 17);
-            this.label19.TabIndex = 67;
-            this.label19.Text = "Grade";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label19.AutoSize = true;
+            label19.BackColor = Color.MintCream;
+            label19.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.Location = new Point(522, 138);
+            label19.Name = "label19";
+            label19.Size = new Size(38, 13);
+            label19.TabIndex = 67;
+            label19.Text = "Grade";
+            label19.TextAlign = ContentAlignment.TopCenter;
             // 
             // StudentViewAttendance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(800, 485);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "StudentViewAttendance";
-            this.Text = "StudentViewAttendance";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.SteelBlue;
+            ClientSize = new Size(700, 364);
+            Controls.Add(label19);
+            Controls.Add(label18);
+            Controls.Add(label17);
+            Controls.Add(pictureBox15);
+            Controls.Add(pictureBox14);
+            Controls.Add(pictureBox13);
+            Controls.Add(label16);
+            Controls.Add(label15);
+            Controls.Add(label14);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(label9);
+            Controls.Add(pictureBox12);
+            Controls.Add(pictureBox11);
+            Controls.Add(pictureBox9);
+            Controls.Add(pictureBox10);
+            Controls.Add(label8);
+            Controls.Add(label5);
+            Controls.Add(label7);
+            Controls.Add(panel5);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "StudentViewAttendance";
+            Text = "StudentViewAttendance";
+            Load += StudentViewAttendance_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

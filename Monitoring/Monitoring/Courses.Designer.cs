@@ -521,6 +521,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "Courses";
             Text = "Courses";
+            Load += Courses_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();

@@ -43,10 +43,7 @@ C:\Users\Alyx\Downloads\Attendance_edit\Attendance\Monitoring\Monitoring\obj\Deb
 C:\Users\Alyx\Downloads\Attendance_edit\Attendance\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.genruntimeconfig.cache
 C:\Users\Alyx\Downloads\Attendance_edit\Attendance\Monitoring\Monitoring\obj\Debug\net6.0-windows\ref\Monitoring.dll
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.exe
-E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.deps.json
-E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.runtimeconfig.json
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.dll
-E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.pdb
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.Attendance.resources
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.ClassReport.resources
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.Courses.resources
@@ -65,5 +62,8 @@ E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-win
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.dll
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\refint\Monitoring.dll
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.pdb
+E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.deps.json
+E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.runtimeconfig.json
+E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\bin\Debug\net6.0-windows\Monitoring.pdb
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\Monitoring.genruntimeconfig.cache
 E:\GitHub\AdamsonAttendanceMonitoring\Monitoring\Monitoring\obj\Debug\net6.0-windows\ref\Monitoring.dll

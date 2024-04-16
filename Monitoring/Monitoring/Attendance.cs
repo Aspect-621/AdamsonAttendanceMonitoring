@@ -108,8 +108,8 @@ public string[] students = {
     "202312647" };
         */
         //FOR TEST CASE
-      public string[] students = { "Student1", "Student2", "Student3", "Student4", "Student5" };
-      public string[] studentID = { "ID1", "ID2", "ID3", "ID4", "ID5" };
+        public string[] students = { "Student1", "Student2", "Student3", "Student4", "Student5" };
+        public string[] studentID = { "ID1", "ID2", "ID3", "ID4", "ID5" };
         private int[] studentStatus; 
 
         public Attendance()
