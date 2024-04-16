@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Program.cs",
-              "RelativeDocumentMoniker": "Monitoring\\Program.cs",
-              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Program.cs",
-              "RelativeToolTip": "Monitoring\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T03:53:52.992Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Attendance.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs",
-              "RelativeDocumentMoniker": "Monitoring\\Attendance.cs",
-              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs [Design]",
-              "RelativeToolTip": "Monitoring\\Attendance.cs [Design]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Form1.cs",
+              "RelativeDocumentMoniker": "Monitoring\\Form1.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Form1.cs",
+              "RelativeToolTip": "Monitoring\\Form1.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T12:17:48.203Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-15T23:05:54.14Z"
             },
             {
               "$type": "Document",
@@ -56,7 +40,7 @@
               "RelativeDocumentMoniker": "Monitoring\\Attendance.cs",
               "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs",
               "RelativeToolTip": "Monitoring\\Attendance.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAowBAAAAACAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwLEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T11:12:35.429Z",
               "EditorCaption": ""
