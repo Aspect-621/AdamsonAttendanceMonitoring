@@ -14,11 +14,19 @@ namespace Monitoring
     public partial class StudentViewAttendance : Form
     {
         private UserData loggedInUser;
+<<<<<<< Updated upstream
           
         public StudentViewAttendance(UserData userData)
         {
             InitializeComponent();
             this.loggedInUser = userData; 
+=======
+
+        public StudentViewAttendance(UserData userData)
+        {
+            InitializeComponent();
+            this.loggedInUser = userData;
+>>>>>>> Stashed changes
             label7.Text = loggedInUser.FullName;
         }
 

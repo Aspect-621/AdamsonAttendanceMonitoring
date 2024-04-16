@@ -45,7 +45,11 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
+<<<<<<< Updated upstream
                 MessageBox.Show("You are a Student");
+=======
+                MessageBox.Show("You are a Student!");
+>>>>>>> Stashed changes
                 StudentViewAttendance AppDevLabAttendanceStudent = new StudentViewAttendance(loggedInUser);
                 AppDevLabAttendanceStudent.Show();
                 this.Hide();

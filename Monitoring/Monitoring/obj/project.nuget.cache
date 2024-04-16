@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eU8NZzItpnByeQZVdPLNNmwn5tmYY84Xx4ynPG8HRPBx6/Lvukw1E/5VPOYjsBthY2ijulnZ1L/gotB2p0DH+g==",
+  "dgSpecHash": "7/wuZeIqprFhJDelQIJtZNQr3GDvSCmTDhQZshQ9X74LQRiwvszsxKQdGBV3Hmz/KhhISotGW6cfZ2Pv2K1wEA==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
+  "projectFilePath": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Monitoring.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alyx\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
     "C:\\Users\\Alyx\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",

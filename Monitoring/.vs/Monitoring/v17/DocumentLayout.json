@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\",
+  "WorkspaceRootPath": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\studentviewattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\studentviewattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -24,7 +25,34 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring(trail\\monitoring\\monitoring\\studentviewattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\studentviewattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\monitoring\\studentviewattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\studentviewattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring(trail\\monitoring\\monitoring\\totalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\totalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\monitoring\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring(trail\\monitoring\\monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,6 +80,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "StudentViewAttendance.cs",
               "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\StudentViewAttendance.cs",
               "RelativeDocumentMoniker": "Monitoring\\StudentViewAttendance.cs",
@@ -61,31 +90,104 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T04:40:59.35Z",
               "EditorCaption": ""
+=======
+              "Title": "StudentViewAttendance.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\StudentViewAttendance.cs",
+              "RelativeDocumentMoniker": "Monitoring\\StudentViewAttendance.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\StudentViewAttendance.cs [Design]",
+              "RelativeToolTip": "Monitoring\\StudentViewAttendance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:39:17.323Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TotalReport.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\TotalReport.cs",
+              "RelativeDocumentMoniker": "Monitoring\\TotalReport.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\TotalReport.cs [Design]",
+              "RelativeToolTip": "Monitoring\\TotalReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:39:03.462Z",
+              "EditorCaption": " [Design]"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
+=======
+              "Title": "StudentViewAttendance.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\StudentViewAttendance.cs",
+              "RelativeDocumentMoniker": "Monitoring\\StudentViewAttendance.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\StudentViewAttendance.cs",
+              "RelativeToolTip": "Monitoring\\StudentViewAttendance.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:29:56.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Courses.cs",
+              "RelativeDocumentMoniker": "Monitoring\\Courses.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Courses.cs",
+              "RelativeToolTip": "Monitoring\\Courses.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADwvy8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:22:31.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Form1.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Form1.cs",
               "RelativeDocumentMoniker": "Monitoring\\Form1.cs",
-              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Form1.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Form1.cs",
               "RelativeToolTip": "Monitoring\\Form1.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAFMAAAAAAAAAAAAcwIwAAAABAAAA",
+=======
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFYAAABCAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T01:35:54.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Program.cs",
+              "RelativeDocumentMoniker": "Monitoring\\Program.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Program.cs",
+              "RelativeToolTip": "Monitoring\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T03:53:52.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "Attendance.cs",
-              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Attendance.cs",
               "RelativeDocumentMoniker": "Monitoring\\Attendance.cs",
-              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring(TRAIL\\Monitoring\\Monitoring\\Attendance.cs",
               "RelativeToolTip": "Monitoring\\Attendance.cs",
               "ViewState": "AQIAAHMAAAAAAAAAAAAgwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T11:12:35.429Z"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -110,6 +212,8 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T03:53:52.992Z"
+=======
+>>>>>>> Stashed changes
             }
           ]
         }

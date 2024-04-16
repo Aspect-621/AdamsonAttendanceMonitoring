@@ -298,12 +298,19 @@
             label7.AutoSize = true;
             label7.BackColor = Color.LightBlue;
             label7.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+<<<<<<< Updated upstream
             label7.Location = new Point(308, 9);
+=======
+            label7.Location = new Point(182, 9);
+>>>>>>> Stashed changes
             label7.Name = "label7";
             label7.Size = new Size(238, 32);
             label7.TabIndex = 28;
             label7.Text = "NAME OF STUDENT";
+<<<<<<< Updated upstream
             label7.TextAlign = ContentAlignment.MiddleCenter;
+=======
+>>>>>>> Stashed changes
             // 
             // label5
             // 
