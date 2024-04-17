@@ -489,6 +489,7 @@ namespace Monitoring
             Margin = new Padding(3, 2, 3, 2);
             Name = "ClassReport";
             Text = "ClassReport";
+            Load += ClassReport_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);

@@ -14,9 +14,12 @@ namespace Monitoring
 {
     public partial class ClassReport : Form
     {
-        public ClassReport()
+        private List<Attendance.Status> attendanceList;
+
+        public ClassReport(List<Attendance.Status> attendanceList)
         {
             InitializeComponent();
+            this.attendanceList = attendanceList;
             SelectedDate = DateTime.Now;
         }
 
@@ -31,37 +34,63 @@ namespace Monitoring
             Status = status;
         }
 
-        public void DisplayAttendance(string[] studentName, string[] studentNo, Status status)
+        public void DisplayAttendance(DateTime selectedDate)
         {
-            //if (Status.DateTimeStamp.Date == SelectedDate.Date)
-            //{
-            for (int i = 0; i < studentName.Length; i++)
+            // Clear existing controls from flowLayoutPanel1
+            flowLayoutPanel1.Controls.Clear();
+
+            // Filter attendance records for the selected date
+            var filteredAttendance = attendanceList.Where(record => record.DateTimeStamp.Date == selectedDate.Date);
+
+            // Iterate through filtered attendance records
+            foreach (var attendanceRecord in filteredAttendance)
             {
-                GroupBox groupBox = new GroupBox();
-                groupBox.Text = studentName[i];
+                for (int i = 0; i < StudentName.Length; i++)
+                {
+                    GroupBox groupBox = new GroupBox();
+                    groupBox.Text = StudentName[i];
 
-                Label id = new Label();
-                id.Text = studentNo[i];
-                id.Location = new System.Drawing.Point(150, 0);
+                    Label id = new Label();
+                    id.Text = StudentNo[i];
+                    id.Location = new System.Drawing.Point(150, 0);
 
-                Label present = new Label();
-                present.Text = status.AttendanceStatus[i].ToString();
-                //present.Text = "Test";
-                present.Location = new System.Drawing.Point(345, 0);
+                    Label present = new Label();
+                    present.Text = GetAttendanceStatus(attendanceRecord.AttendanceStatus[i]); // Get status text
+                    present.Location = new System.Drawing.Point(345, 0);
 
-                groupBox.Controls.Add(id);
-                groupBox.Controls.Add(present);
-                groupBox.Size = new System.Drawing.Size(500, 40); // Width = 200, Height = 150
+                    groupBox.Controls.Add(id);
+                    groupBox.Controls.Add(present);
+                    groupBox.Size = new System.Drawing.Size(500, 40); // Width = 200, Height = 150
 
-                flowLayoutPanel1.Controls.Add(groupBox);
-                groupBox.TabIndex = i;
+                    flowLayoutPanel1.Controls.Add(groupBox);
+                    groupBox.TabIndex = i;
+                }
             }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Data not found");
-            //}
+
+            // If no records found, display a message
+            if (!filteredAttendance.Any())
+            {
+                MessageBox.Show("No attendance records found for the selected date.");
+            }
         }
+
+        private string GetAttendanceStatus(int status)
+        {
+            switch (status)
+            {
+                case 4:
+                    return "Present";
+                case 3:
+                    return "Absent";
+                case 2:
+                    return "Late";
+                case 1:
+                    return "Excused";
+                default:
+                    return "No input";
+            }
+        }
+
 
 
         private void label5_Click(object sender, EventArgs e)
@@ -107,12 +136,14 @@ namespace Monitoring
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             SelectedDate = dateTimePicker1.Value;
+            DisplayAttendance(SelectedDate);
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            DisplayAttendance(StudentName, StudentNo, Status);
         }
+
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
@@ -120,6 +151,11 @@ namespace Monitoring
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClassReport_Load(object sender, EventArgs e)
         {
 
         }

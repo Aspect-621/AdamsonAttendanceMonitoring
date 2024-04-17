@@ -278,13 +278,13 @@ namespace Monitoring
 
         private void label3_Click(object sender, EventArgs e)
         {
-            ClassReport classReport = new ClassReport();
+            ClassReport classReport = new ClassReport(attendanceList);
             classReport.GetData(students, studentID, attendance);
             classReport.Show();
         }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            ClassReport classReport = new ClassReport();
+            ClassReport classReport = new ClassReport(attendanceList);
             classReport.GetData(students, studentID, attendance);
             classReport.Show();
         }
