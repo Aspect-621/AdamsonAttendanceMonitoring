@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\WOKIRNG\\Monitoring\\Monitoring\\Monitoring\\Monitoring.csproj": {}
+    "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\WOKIRNG\\Monitoring\\Monitoring\\Monitoring\\Monitoring.csproj": {
+    "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\WOKIRNG\\Monitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
+        "projectUniqueName": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
         "projectName": "Monitoring",
-        "projectPath": "E:\\GitHub\\WOKIRNG\\Monitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
+        "projectPath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Monitoring.csproj",
         "packagesPath": "C:\\Users\\Alyx\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\WOKIRNG\\Monitoring\\Monitoring\\Monitoring\\obj\\",
+        "outputPath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alyx\\AppData\\Roaming\\NuGet\\NuGet.Config",

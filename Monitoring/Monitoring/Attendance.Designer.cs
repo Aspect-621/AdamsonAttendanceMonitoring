@@ -73,6 +73,7 @@ namespace Monitoring
             label24 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             submitAttendance = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -558,12 +559,23 @@ namespace Monitoring
             submitAttendance.UseVisualStyleBackColor = true;
             submitAttendance.Click += submitAttendance_Click_1;
             // 
+            // button1
+            // 
+            button1.Location = new Point(14, 361);
+            button1.Name = "button1";
+            button1.Size = new Size(147, 45);
+            button1.TabIndex = 60;
+            button1.Text = "FOR CHECKING(CONSOLE.)";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Attendance
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
             ClientSize = new Size(734, 418);
+            Controls.Add(button1);
             Controls.Add(submitAttendance);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label12);
@@ -677,5 +689,6 @@ namespace Monitoring
         private FlowLayoutPanel flowLayoutPanel1;
         private Button submitAttendance;
         private Panel panel7;
+        private Button button1;
     }
 }
