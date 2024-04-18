@@ -123,17 +123,20 @@ namespace Monitoring
         public class Status
         {
             public DateTime DateTimeStamp { get; set; }
+            public string[] StudentNames { get; set; } // Array of student names
             public int[] AttendanceStatus { get; set; }
             public int Subject { get; set; }
-            public Status(DateTime dateTimeStamp, int[] attendanceStatus, int subject)
-
+            public string[] Student_ID { get; set; } // Array of student names
+            public Status(DateTime dateTimeStamp, string[] studentNames, int[] attendanceStatus, int subject, string[] studentID)
             {
                 DateTimeStamp = dateTimeStamp;
+                StudentNames = studentNames;
                 AttendanceStatus = attendanceStatus;
                 Subject = subject;
+                Student_ID = studentID;
             }
-
         }
+
 
         public Attendance(UserData userData)
         {
@@ -259,7 +262,7 @@ namespace Monitoring
             else
             {
                 // Create new record
-                Status attendanceRecord = new Status(new DateTime(date.Year, date.Month, date.Day), attendanceStatus.ToArray(), subject);
+                Status attendanceRecord = new Status(new DateTime(date.Year, date.Month, date.Day),students, attendanceStatus.ToArray(), subject, studentID);
                 attendanceList.Add(attendanceRecord); // Add attendance to the list
             }
 
@@ -340,6 +343,12 @@ namespace Monitoring
             Courses courseNew = new Courses(loggedInUser);
             courseNew.Show();
             this.Close();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            TotalReport totalReportForm = new TotalReport(attendanceList);
+            totalReportForm.Show();
         }
     }
 }

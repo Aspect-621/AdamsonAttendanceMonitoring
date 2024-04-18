@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring\\monitoring\\monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring\\monitoring\\monitoring\\totalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\totalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring\\monitoring\\monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring\\monitoring\\monitoring\\totalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\totalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring\\monitoring\\monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|e:\\github\\adamsonattendancemonitoring\\monitoring\\monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\classreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9607B4BB-D64B-4AEE-8765-543EADDA1C9C}|Monitoring\\Monitoring.csproj|solutionrelative:monitoring\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -29,12 +37,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 247,
           "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Form1.cs",
               "RelativeDocumentMoniker": "Monitoring\\Form1.cs",
@@ -53,7 +61,7 @@
               "RelativeDocumentMoniker": "Monitoring\\Attendance.cs",
               "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs",
               "RelativeToolTip": "Monitoring\\Attendance.cs",
-              "ViewState": "AQIAAA0BAAAAAAAAAAAqwA4BAAAMAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAIwIcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T11:29:49.466Z",
               "EditorCaption": ""
@@ -66,14 +74,45 @@
               "RelativeDocumentMoniker": "Monitoring\\ClassReport.cs",
               "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\ClassReport.cs",
               "RelativeToolTip": "Monitoring\\ClassReport.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAYwJsAAABAAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAWwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:29:39.385Z",
+              "WhenOpened": "2024-04-18T14:05:40.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "TotalReport.cs",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\TotalReport.cs",
+              "RelativeDocumentMoniker": "Monitoring\\TotalReport.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\TotalReport.cs",
+              "RelativeToolTip": "Monitoring\\TotalReport.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:05:52.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 153,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassReport.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\ClassReport.cs",
+              "RelativeDocumentMoniker": "Monitoring\\ClassReport.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\ClassReport.cs [Design]",
+              "RelativeToolTip": "Monitoring\\ClassReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:29:13.533Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Attendance.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\Attendance.cs",
               "RelativeDocumentMoniker": "Monitoring\\Attendance.cs",
@@ -82,23 +121,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T11:29:10.68Z",
               "EditorCaption": " [Design]"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClassReport.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\ClassReport.cs",
-              "RelativeDocumentMoniker": "Monitoring\\ClassReport.cs",
-              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\ClassReport.cs [Design]",
-              "RelativeToolTip": "Monitoring\\ClassReport.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "TotalReport.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\TotalReport.cs",
+              "RelativeDocumentMoniker": "Monitoring\\TotalReport.cs",
+              "ToolTip": "E:\\GitHub\\AdamsonAttendanceMonitoring\\Monitoring\\Monitoring\\TotalReport.cs [Design]",
+              "RelativeToolTip": "Monitoring\\TotalReport.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:29:13.533Z",
+              "WhenOpened": "2024-04-18T14:05:47.808Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -30,6 +30,7 @@ namespace Monitoring
         public string[] StudentNo;
         public Status Status;
         public int Subject;
+        public int Student_ID;
         public void GetData(string[] studentName, string[] studentNo, Status status, int subject)
         {
             StudentName = studentName;
