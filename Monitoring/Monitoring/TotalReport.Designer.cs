@@ -50,7 +50,6 @@
             panel5 = new Panel();
             label6 = new Label();
             pictureBox8 = new PictureBox();
-            comboBox1 = new ComboBox();
             label9 = new Label();
             pictureBox10 = new PictureBox();
             pictureBox11 = new PictureBox();
@@ -59,6 +58,7 @@
             label11 = new Label();
             label12 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -313,15 +313,6 @@
             pictureBox8.TabIndex = 8;
             pictureBox8.TabStop = false;
             // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(376, 68);
-            comboBox1.Margin = new Padding(3, 2, 3, 2);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(119, 23);
-            comboBox1.TabIndex = 32;
-            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -402,12 +393,24 @@
             flowLayoutPanel1.Size = new Size(471, 221);
             flowLayoutPanel1.TabIndex = 62;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "APPLICATIONS DEVT LAB", "APPLICATIONS DEVT LEC", "COMPUTER PROG LAB", "COMPUTER PROG LEC", "OBJECT ORIENTED PROG LAB", "OBJECT ORIENTED PROG LEC" });
+            comboBox1.Location = new Point(372, 68);
+            comboBox1.Margin = new Padding(3, 2, 3, 2);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(119, 23);
+            comboBox1.TabIndex = 63;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
+            // 
             // TotalReport
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
             ClientSize = new Size(700, 364);
+            Controls.Add(comboBox1);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label12);
             Controls.Add(label11);
@@ -415,7 +418,6 @@
             Controls.Add(pictureBox12);
             Controls.Add(pictureBox11);
             Controls.Add(pictureBox10);
-            Controls.Add(comboBox1);
             Controls.Add(label9);
             Controls.Add(panel5);
             Controls.Add(panel3);
@@ -478,7 +480,6 @@
         private Panel panel5;
         private Label label6;
         private PictureBox pictureBox8;
-        private ComboBox comboBox1;
         private Label label9;
         private PictureBox pictureBox10;
         private PictureBox pictureBox11;
@@ -487,5 +488,6 @@
         private Label label11;
         private Label label12;
         private FlowLayoutPanel flowLayoutPanel1;
+        private ComboBox comboBox1;
     }
 }

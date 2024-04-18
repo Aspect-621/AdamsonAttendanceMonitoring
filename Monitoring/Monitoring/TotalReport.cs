@@ -21,64 +21,88 @@ namespace Monitoring
         {
             InitializeComponent();
             this.attendanceList = attendanceList;
-            DisplayTotalAttendance();
 
         }
         [DllImport("kernel32.dll", SetLastError = true)]
         [return: MarshalAs(UnmanagedType.Bool)]
         static extern bool AllocConsole();
-        private void DisplayTotalAttendance()
+        private void DisplayTotalAttendance(List<Attendance.Status> attendanceList)
         {
             // Clear existing controls from flowLayoutPanel1
             flowLayoutPanel1.Controls.Clear();
 
-            // Create a dictionary to store the total attendance count for each student
-            Dictionary<string, int> totalAttendanceCount = new Dictionary<string, int>();
+            // Create a dictionary to store the total attendance count and classes attended for each student in the selected subject
+            Dictionary<string, Tuple<int, int>> studentAttendanceCount = new Dictionary<string, Tuple<int, int>>();
 
-            // Count total attendance for each student
+            // Count total attendance for each student in the selected subject
             foreach (var attendanceRecord in attendanceList)
             {
-                for (int i = 0; i < attendanceRecord.AttendanceStatus.Length; i++)
+                int subject = attendanceRecord.Subject;
+                if (subject != comboBox1.SelectedIndex)
+                    continue;
+
+                for (int i = 0; i < attendanceRecord.StudentNames.Length; i++)
                 {
                     string studentName = attendanceRecord.StudentNames[i];
-                    if (!totalAttendanceCount.ContainsKey(studentName))
+                    string studentID = attendanceRecord.Student_ID[i];
+                    if (!studentAttendanceCount.ContainsKey(studentName))
                     {
-                        totalAttendanceCount[studentName] = 0;
+                        studentAttendanceCount[studentName] = new Tuple<int, int>(0, 0);
                     }
 
                     // Count only actual present attendance
                     if (attendanceRecord.AttendanceStatus[i] == 4) // Present
                     {
-                        totalAttendanceCount[studentName]++;
+                        studentAttendanceCount[studentName] = Tuple.Create(studentAttendanceCount[studentName].Item1 + 1, studentAttendanceCount[studentName].Item2 + 1);
+                    }
+                    else if (attendanceRecord.AttendanceStatus[i] > 0) // Count all other statuses except No input
+                    {
+                        studentAttendanceCount[studentName] = Tuple.Create(studentAttendanceCount[studentName].Item1, studentAttendanceCount[studentName].Item2 + 1);
                     }
                 }
             }
 
-            // Calculate and display total attendance percentage for each student
-            // Calculate and display total attendance percentage for each student
-            foreach (var kvp in totalAttendanceCount)
+            // Calculate and display total attendance percentage for each student in the selected subject
+            foreach (var kvp in studentAttendanceCount)
             {
                 GroupBox groupBox = new GroupBox();
                 groupBox.Text = kvp.Key; // Student name
 
-                int totalClasses = attendanceList.Count;
-                double attendancePercentage = (double)kvp.Value / totalClasses * 100; // Calculate percentage
+                int totalClasses = kvp.Value.Item2;
+                double attendancePercentage = totalClasses > 0 ? (double)kvp.Value.Item1 / totalClasses * 100 : 0; // Calculate percentage
 
+                // Create label for student ID
+                Label idLabel = new Label();
+                idLabel.Text = $"{attendanceList.FirstOrDefault(record => record.StudentNames.Contains(kvp.Key))?.Student_ID.First()}";
+                idLabel.Location = new System.Drawing.Point(200, 0);
+                groupBox.Controls.Add(idLabel);
+
+                // Create label for total attendance percentage
                 Label attendanceLabel = new Label();
-                attendanceLabel.Location = new System.Drawing.Point(150, 0);
-
-                // Set the label text
-                attendanceLabel.Text = $"{attendancePercentage:F2}%"; // Display attendance percentage
-
-                // Add the label to the group box
+                attendanceLabel.Text = $"{attendancePercentage:F2}% ";
+                attendanceLabel.Location = new System.Drawing.Point(400, 0);
                 groupBox.Controls.Add(attendanceLabel);
-                groupBox.Size = new System.Drawing.Size(500, 40);
 
-                // Add groupBox to flowLayoutPanel1
+                // Add the group box to the flow layout panel
+                groupBox.Size = new System.Drawing.Size(500, 25);
                 flowLayoutPanel1.Controls.Add(groupBox);
             }
+        }
+
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            int selectedSubject = comboBox1.SelectedIndex;
+
+            // Filter the attendance list for the selected subject
+            List<Attendance.Status> filteredAttendanceList = attendanceList.Where(record => record.Subject == selectedSubject).ToList();
+
+            // Display the attendance for the selected subject
+            DisplayTotalAttendance(filteredAttendanceList);
 
         }
+
+
 
 
 
@@ -99,5 +123,7 @@ namespace Monitoring
         {
 
         }
+
+    
     }
 }
