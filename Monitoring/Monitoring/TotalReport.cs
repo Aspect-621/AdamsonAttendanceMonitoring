@@ -51,7 +51,6 @@ namespace Monitoring
             int[] presentDays = new int[StudentName.Length];
             for (int i = 0; i < StudentName.Length; i++)
             {
-                // Calculate attendance percentage, present/absent
                 int late = 0;
                 foreach (var status in matchingStatuses)
                 {

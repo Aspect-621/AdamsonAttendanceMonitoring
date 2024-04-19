@@ -45,13 +45,10 @@ namespace Monitoring
 
         public void DisplayAttendance()
         {
-            // Clear existing controls from flowLayoutPanel1
             flowLayoutPanel1.Controls.Clear();
 
-            // Filter attendance records for the selected date and subject
             var filteredAttendance = attendanceList.Where(record => record.DateTimeStamp.Date == SelectedDate.Date && record.Subject == SelectedSubject);
 
-            // Iterate through filtered attendance records
             foreach (var attendanceRecord in filteredAttendance)
             {
                 for (int i = 0; i < StudentName.Length; i++)
@@ -64,7 +61,7 @@ namespace Monitoring
                     id.Location = new System.Drawing.Point(150, 0);
 
                     Label present = new Label();
-                    present.Text = GetAttendanceStatus(attendanceRecord.AttendanceStatus[i]); // Get status text
+                    present.Text = GetAttendanceStatus(attendanceRecord.AttendanceStatus[i]); 
                     present.Location = new System.Drawing.Point(345, 0);
 
                     groupBox.Controls.Add(id);
@@ -76,7 +73,6 @@ namespace Monitoring
                 }
             }
 
-            // If no records found, display a message
             if (!filteredAttendance.Any())
             {
                 MessageBox.Show("No attendance records found for the selected date/subject.");

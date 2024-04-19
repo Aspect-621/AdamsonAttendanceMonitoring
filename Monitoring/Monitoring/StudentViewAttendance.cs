@@ -211,16 +211,14 @@ namespace Monitoring
 
             if (comboBox1.SelectedItem != null)
             {
-                // Get the selected subject from the ComboBox
                 string selectedSubject = comboBox1.SelectedItem.ToString();
 
-                // Filter attendance records for the selected subject and logged-in user
+                //filter attendance records for the selected subject and logged-in user
                 List<StudentAttendance> attendanceRecords = Student.AttendanceRecords;
                 List<StudentAttendance> studentRecordsForSubject = attendanceRecords
                     .Where(record => record.StudentName == loggedInUser.FullName && record.Subject == selectedSubject)
                     .ToList();
 
-                // Group attendance records by date
                 var groupedRecords = studentRecordsForSubject.GroupBy(record => record.Date);
 
                 if (groupedRecords.Any())
@@ -232,7 +230,7 @@ namespace Monitoring
 
                         foreach (var studentRecord in group)
                         {
-                            // Display only the attendance record of the logged-in user
+                            // displays only the attendance record of the logged-in user
                             if (studentRecord.StudentName == loggedInUser.FullName)
                             {
                                 System.Windows.Forms.Label dateLabel = new System.Windows.Forms.Label();

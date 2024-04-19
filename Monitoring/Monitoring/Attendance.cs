@@ -196,12 +196,12 @@ namespace Monitoring
                     radioButton.Location = new System.Drawing.Point(475 + (-(j * 65)), -1);
                     radioButton.CheckedChanged += (sender, e) =>
                     {
-                        // Store the selected index when a radio button changes
+                        // store the selected index when a radio button changes
                         RadioButton btn = (RadioButton)sender;
                         if (btn.Checked)
                         {
-                            int index = (btn.Parent as GroupBox).TabIndex; // Get the index of the group box
-                            attendanceStatus[index] = Array.IndexOf(btn.Parent.Controls.OfType<RadioButton>().ToArray(), btn) + 1; // Store the selected index
+                            int index = (btn.Parent as GroupBox).TabIndex; // get the index of the group box
+                            attendanceStatus[index] = Array.IndexOf(btn.Parent.Controls.OfType<RadioButton>().ToArray(), btn) + 1; // store the selected index
                             // 4 - Present, 3 - Absent, 2 - Late, 1 - Excused, 0 - No input
                         }
                     };
@@ -287,30 +287,28 @@ namespace Monitoring
 
             string selectedSubject = comboBox1.SelectedItem.ToString();
 
-            // Get the current date without the time component
             DateTime currentDate = dateTimePicker1.Value.Date;
 
             // Update the attendance records in the Student class
+            //Student class will be used by student users to see their attendance
             for (int i = 0; i < students.Length; i++)
             {
                 StudentAttendance attendanceRecord = new StudentAttendance
                 {
                     StudentName = students[i],
-                    Date = currentDate, // Store only the date
+                    Date = currentDate, 
                     AttendanceStatus = attendanceStatus[i],
-                    Subject = selectedSubject // Use the selected subject for each attendance record
+                    Subject = selectedSubject
                 };
 
-                // Check if the record already exists in the list
+                // check if the record already exists in the list and update record of student
                 int index = Student.AttendanceRecords.FindIndex(record => record.StudentName == students[i] && record.Date.Date == currentDate && record.Subject == selectedSubject);
                 if (index != -1)
                 {
-                    // Update existing record
                     Student.AttendanceRecords[index] = attendanceRecord;
                 }
                 else
                 {
-                    // Add new record
                     Student.AttendanceRecords.Add(attendanceRecord);
                 }
             }
