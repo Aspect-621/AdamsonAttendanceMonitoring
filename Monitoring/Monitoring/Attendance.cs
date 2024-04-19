@@ -117,16 +117,18 @@ namespace Monitoring
             "GAPASIN, Michael Andrei",
             "GARCIA, Enjo Mae",
             "GRICO, Cirgs Alyxander",
-            "LEYESA, Dann Martin",
-            "LUZON, Adrian Dominic",
-            "MADIO, Jonalyn" };
+            "PINLAC, Kenji Luis",
+            "QUIJANO, Tim",
+            "QUILATAN, Marcis Joseph" };
         public string[] studentID = {
             "202312225",
             "202311127",
             "202312392",
-            "202312710",
-            "202312813",
-            "202311906" };
+            "202310292",
+            "202313343",
+            "202313882"
+        };
+
         public int[] attendanceStatus;
         public DateTime date = new DateTime();
         public int subject;
