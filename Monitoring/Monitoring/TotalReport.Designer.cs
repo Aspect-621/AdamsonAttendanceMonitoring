@@ -143,6 +143,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 3;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // label1
             // 
@@ -177,6 +178,7 @@
             label2.Size = new Size(87, 20);
             label2.TabIndex = 16;
             label2.Text = "Attendance";
+            label2.Click += label2_Click;
             // 
             // pictureBox4
             // 
@@ -189,6 +191,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 16;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel4
             // 
@@ -212,6 +215,7 @@
             label3.Size = new Size(92, 20);
             label3.TabIndex = 18;
             label3.Text = "Class Report";
+            label3.Click += label3_Click;
             // 
             // pictureBox5
             // 
@@ -224,6 +228,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 18;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // label22
             // 
@@ -269,6 +274,7 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 19;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // label4
             // 

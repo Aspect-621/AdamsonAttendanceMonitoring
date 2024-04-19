@@ -326,9 +326,9 @@
             label9.Font = new Font("Segoe UI", 7.2F, FontStyle.Regular, GraphicsUnit.Point);
             label9.Location = new Point(2, 114);
             label9.Name = "label9";
-            label9.Size = new Size(64, 12);
+            label9.Size = new Size(69, 12);
             label9.TabIndex = 26;
-            label9.Text = "Name of Prof";
+            label9.Text = "ALVEZ, Jerome";
             // 
             // label10
             // 
@@ -337,9 +337,9 @@
             label10.Font = new Font("Segoe UI", 7.2F, FontStyle.Regular, GraphicsUnit.Point);
             label10.Location = new Point(484, 184);
             label10.Name = "label10";
-            label10.Size = new Size(64, 12);
+            label10.Size = new Size(69, 12);
             label10.TabIndex = 27;
-            label10.Text = "Name of Prof";
+            label10.Text = "ALVEZ, Jerome";
             // 
             // label11
             // 
@@ -348,9 +348,9 @@
             label11.Font = new Font("Segoe UI", 7.2F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(3, 110);
             label11.Name = "label11";
-            label11.Size = new Size(64, 12);
+            label11.Size = new Size(69, 12);
             label11.TabIndex = 28;
-            label11.Text = "Name of Prof";
+            label11.Text = "ALVEZ, Jerome";
             // 
             // label12
             // 
@@ -359,9 +359,9 @@
             label12.Font = new Font("Segoe UI", 7.2F, FontStyle.Regular, GraphicsUnit.Point);
             label12.Location = new Point(4, 104);
             label12.Name = "label12";
-            label12.Size = new Size(64, 12);
+            label12.Size = new Size(69, 12);
             label12.TabIndex = 29;
-            label12.Text = "Name of Prof";
+            label12.Text = "ALVEZ, Jerome";
             // 
             // label13
             // 
@@ -370,9 +370,10 @@
             label13.Font = new Font("Segoe UI", 7.2F, FontStyle.Regular, GraphicsUnit.Point);
             label13.Location = new Point(0, 108);
             label13.Name = "label13";
-            label13.Size = new Size(64, 12);
+            label13.Size = new Size(69, 12);
             label13.TabIndex = 30;
-            label13.Text = "Name of Prof";
+            label13.Text = "ALVEZ, Jerome";
+            label13.Click += label13_Click;
             // 
             // panel2
             // 
@@ -444,9 +445,10 @@
             label8.Font = new Font("Segoe UI", 7.2F, FontStyle.Regular, GraphicsUnit.Point);
             label8.Location = new Point(1, 108);
             label8.Name = "label8";
-            label8.Size = new Size(64, 12);
+            label8.Size = new Size(69, 12);
             label8.TabIndex = 27;
-            label8.Text = "Name of Prof";
+            label8.Text = "ALVEZ, Jerome";
+            label8.Click += label8_Click;
             // 
             // panel1
             // 

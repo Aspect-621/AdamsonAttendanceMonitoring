@@ -21,13 +21,23 @@ namespace Monitoring
         public List<Attendance.Status> StatusList;
         public string[] StudentName;
         public string[] StudentNo;
-        public TotalReport(string[] studentName, string[] studentNo, List<Attendance.Status> statusList)
+        public string labelZeor = "";
+        public TotalReport(string[] studentName, string[] studentNo, List<Attendance.Status> statusList, string textLabel)
         {
             InitializeComponent();
             StudentName = studentName;
             StudentNo = studentNo;
             SelectedDate = DateTime.Now;
             StatusList = statusList;
+            labelZeor = textLabel;
+            label7.Text = textLabel;
+            int index = comboBox1.FindStringExact(labelZeor);
+
+            if (index != -1)
+            {
+                comboBox1.SelectedIndex = index;
+            }
+
 
         }
 
@@ -35,7 +45,7 @@ namespace Monitoring
         {
             flowLayoutPanel1.Controls.Clear();
 
-            // Filter attendance records for the selected date and subject
+     
             var matchingStatuses = StatusList.Where(status => status.Subject == SelectedSubject);
 
             int[] presentDays = new int[StudentName.Length];
@@ -60,11 +70,11 @@ namespace Monitoring
                             break;
                         case 1: // Excused
                             presentDays[i]++; break;
-                        default: break; // No input
+                        default: break; 
                     }
                 }
 
-                // Populate groupboxes
+                // creating groupboxes
                 GroupBox groupBox = new GroupBox();
                 groupBox.Text = StudentName[i];
 
@@ -103,7 +113,10 @@ namespace Monitoring
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            Courses coursesForm = Application.OpenForms["Courses"] as Courses;
+            coursesForm.Show();
+            coursesForm.BringToFront();
+            this.Close();
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -126,6 +139,45 @@ namespace Monitoring
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Attendance attendanceForm = Application.OpenForms["Attendance"] as Attendance;
+            attendanceForm.Show();
+            attendanceForm.BringToFront();
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Attendance attendanceForm = Application.OpenForms["Attendance"] as Attendance;
+            attendanceForm.Show();
+            attendanceForm.BringToFront();
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Courses coursesForm = Application.OpenForms["Courses"] as Courses;
+            coursesForm.Show();
+            coursesForm.BringToFront();
+            this.Close();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

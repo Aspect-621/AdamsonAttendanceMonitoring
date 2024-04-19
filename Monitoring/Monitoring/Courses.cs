@@ -19,6 +19,7 @@ namespace Monitoring
         {
             InitializeComponent();
             this.loggedInUser = userData;
+
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -45,15 +46,16 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
-
-                StudentViewAttendance AppDevLabAttendanceStudent = new StudentViewAttendance(loggedInUser);
+                string clickedSubject = label2.Text;
+                StudentViewAttendance AppDevLabAttendanceStudent = new StudentViewAttendance(loggedInUser, clickedSubject);
                 AppDevLabAttendanceStudent.Show();
                 this.Hide();
             }
             else
             {
+                string clickedSubject = label2.Text;
 
-                Attendance AppDevLabAttendance = new Attendance(loggedInUser);
+                Attendance AppDevLabAttendance = new Attendance(loggedInUser, clickedSubject);
                 AppDevLabAttendance.Show();
                 this.Hide();
             }
@@ -63,15 +65,16 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
-
-                StudentViewAttendance AppDevLecAttendanceStudent = new StudentViewAttendance(loggedInUser);
+                string clickedSubject = label3.Text;
+                StudentViewAttendance AppDevLecAttendanceStudent = new StudentViewAttendance(loggedInUser, clickedSubject);
                 AppDevLecAttendanceStudent.Show();
                 this.Hide();
             }
             else
             {
+                string clickedSubject = label3.Text;
 
-                Attendance AppDevLecAttendance = new Attendance(loggedInUser);
+                Attendance AppDevLecAttendance = new Attendance(loggedInUser, clickedSubject);
                 AppDevLecAttendance.Show();
                 this.Hide();
             }
@@ -82,15 +85,16 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
-
-                StudentViewAttendance ComProgLabAttendanceStudent = new StudentViewAttendance(loggedInUser);
+                string clickedSubject = label4.Text;
+                StudentViewAttendance ComProgLabAttendanceStudent = new StudentViewAttendance(loggedInUser, clickedSubject);
                 ComProgLabAttendanceStudent.Show();
                 this.Hide();
             }
             else
             {
+                string clickedSubject = label4.Text;
 
-                Attendance ComProgLabAttendance = new Attendance(loggedInUser);
+                Attendance ComProgLabAttendance = new Attendance(loggedInUser, clickedSubject);
                 ComProgLabAttendance.Show();
                 this.Hide();
             }
@@ -101,15 +105,16 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
-
-                StudentViewAttendance ComProgLecAttendanceStudent = new StudentViewAttendance(loggedInUser);
+                string clickedSubject = label5.Text;
+                StudentViewAttendance ComProgLecAttendanceStudent = new StudentViewAttendance(loggedInUser, clickedSubject);
                 ComProgLecAttendanceStudent.Show();
                 this.Hide();
             }
             else
             {
+                string clickedSubject = label5.Text;
 
-                Attendance ComProgLecAttendance = new Attendance(loggedInUser);
+                Attendance ComProgLecAttendance = new Attendance(loggedInUser, clickedSubject);
                 ComProgLecAttendance.Show();
                 this.Hide();
             }
@@ -120,15 +125,16 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
-
-                StudentViewAttendance OOPLabAttendanceStudent = new StudentViewAttendance(loggedInUser);
+                string clickedSubject = label6.Text;
+                StudentViewAttendance OOPLabAttendanceStudent = new StudentViewAttendance(loggedInUser, clickedSubject);
                 OOPLabAttendanceStudent.Show();
                 this.Hide();
             }
             else
             {
+                string clickedSubject = label6.Text;
 
-                Attendance OOPLabAttendance = new Attendance(loggedInUser);
+                Attendance OOPLabAttendance = new Attendance(loggedInUser, clickedSubject);
                 OOPLabAttendance.Show();
                 this.Hide();
             }
@@ -139,15 +145,15 @@ namespace Monitoring
         {
             if (loggedInUser.IsStudent)
             {
-
-                StudentViewAttendance OOPLecAttendanceStudent = new StudentViewAttendance(loggedInUser);
+                string clickedSubject = label7.Text;
+                StudentViewAttendance OOPLecAttendanceStudent = new StudentViewAttendance(loggedInUser, clickedSubject);
                 OOPLecAttendanceStudent.Show();
                 this.Hide();
             }
             else
             {
-
-                Attendance OOPLecAttendance = new Attendance(loggedInUser);
+                string clickedSubject = label7.Text;
+                Attendance OOPLecAttendance = new Attendance(loggedInUser, clickedSubject);
                 OOPLecAttendance.Show();
                 this.Hide();
             }
@@ -155,6 +161,16 @@ namespace Monitoring
         }
 
         private void Courses_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
         {
 
         }

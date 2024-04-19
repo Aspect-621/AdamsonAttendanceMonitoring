@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,28 +16,49 @@ namespace Monitoring
     public partial class StudentViewAttendance : Form
     {
         private UserData loggedInUser;
-        private int absentCount = 0;
-        private int lateCount = 0;
-        private int presentCount = 0;
-        private int excusedCount = 0;
+        private double absentCount = 0;
+        private double lateCount = 0;
+        private double presentCount = 0;
+        private double excusedCount = 0;
+        private double totalCount = 0;
+        public string labelZeor = "";
 
-
-        public StudentViewAttendance(UserData userData)
+        public StudentViewAttendance(UserData userData, string labelText)
         {
             InitializeComponent();
             this.loggedInUser = userData;
+            labelZeor = labelText;
             label7.Text = loggedInUser.FullName;
+            int index = comboBox1.FindStringExact(labelZeor);
+            if (index != -1) 
+            {
+                comboBox1.SelectedIndex = index;
+            }
+            updateStatus();
+            changeTextStatus();
         }
 
+
+        public void changeTextStatus() 
+        {
+            totalCount = presentCount + absentCount + excusedCount + lateCount;
+            double percentageOverall;
+            percentageOverall = ((presentCount + lateCount + excusedCount) / totalCount)*100;
+            label8.Text = percentageOverall.ToString() + "%";
+            label9.Text = presentCount.ToString();
+            label10.Text = absentCount.ToString();
+            label11.Text = lateCount.ToString();
+            label12.Text = excusedCount.ToString();
+        }
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser);
+            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser, labelZeor);
             AttendanceStudent.Show();
             this.Hide();
         }
         private void label2_Click(object sender, EventArgs e)
         {
-            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser);
+            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser, labelZeor);
             AttendanceStudent.Show();
             this.Hide();
         }
@@ -68,28 +90,28 @@ namespace Monitoring
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Mission StudentMission = new Mission(loggedInUser);
+            Mission StudentMission = new Mission(loggedInUser, labelZeor);
             StudentMission.Show();
             this.Hide();
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Mission StudentMission = new Mission(loggedInUser);
+            Mission StudentMission = new Mission(loggedInUser, labelZeor);
             StudentMission.Show();
             this.Hide();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Vision StudentVision = new Vision(loggedInUser);
+            Vision StudentVision = new Vision(loggedInUser, labelZeor);
             StudentVision.Show();
             this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Vision StudentVision = new Vision(loggedInUser);
+            Vision StudentVision = new Vision(loggedInUser, labelZeor);
             StudentVision.Show();
             this.Hide();
         }
@@ -111,13 +133,13 @@ namespace Monitoring
         [return: MarshalAs(UnmanagedType.Bool)]
         static extern bool AllocConsole();
 
-        private void button1_Click(object sender, EventArgs e)
+        private void updateStatus()
         {
             List<StudentAttendance> attendanceRecords = Student.AttendanceRecords;
-            AllocConsole();
+            //AllocConsole();
+            //For Testing
             string selectedSubject = comboBox1.SelectedItem.ToString();
 
-            // Find the attendance record of the logged-in student
             List<StudentAttendance> studentRecordsForSubject = attendanceRecords.Where(record =>
         record.StudentName == loggedInUser.FullName && record.Subject == selectedSubject).ToList();
 
@@ -128,8 +150,6 @@ namespace Monitoring
                 {
                     Console.WriteLine("Date: " + studentRecord.Date);
                     Console.WriteLine("Attendance Status: " + GetAttendanceStatus(studentRecord.AttendanceStatus));
-
-                    // Update counters based on attendance status
                     UpdateCounters(studentRecord.AttendanceStatus);
                 }
             }
@@ -215,14 +235,14 @@ namespace Monitoring
                             // Display only the attendance record of the logged-in user
                             if (studentRecord.StudentName == loggedInUser.FullName)
                             {
-                                Label dateLabel = new Label();
+                                System.Windows.Forms.Label dateLabel = new System.Windows.Forms.Label();
                                 dateLabel.Text = $"{studentRecord.Date}";
-                                dateLabel.Location = new Point(90, 0 );
+                                dateLabel.Location = new Point(45, 0 );
                                 groupBox.Controls.Add(dateLabel);
 
-                                Label statusLabel = new Label();
+                                System.Windows.Forms.Label statusLabel = new System.Windows.Forms.Label();
                                 statusLabel.Text = $"{GetAttendanceStatus(studentRecord.AttendanceStatus)}";
-                                statusLabel.Location = new Point(215, 0 );
+                                statusLabel.Location = new Point(170, 0 );
                                 groupBox.Controls.Add(statusLabel);
                             }
                         }

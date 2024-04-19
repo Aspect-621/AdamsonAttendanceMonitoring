@@ -14,10 +14,11 @@ namespace Monitoring
     public partial class Mission : Form
     {
         private UserData loggedInUser;
-
-        public Mission(UserData userData)
+        public string labelZeor = "";
+        public Mission(UserData userData, string labelText)
         {
             InitializeComponent();
+            labelZeor = labelText;
             this.loggedInUser = userData;
         }
 
@@ -42,7 +43,7 @@ namespace Monitoring
 
         private void pictureBox4_Click_1(object sender, EventArgs e)
         {
-            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser);
+            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser, labelZeor);
             AttendanceStudent.Show();
             this.Hide();
 
@@ -50,7 +51,7 @@ namespace Monitoring
 
         private void label2_Click_1(object sender, EventArgs e)
         {
-            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser);
+            StudentViewAttendance AttendanceStudent = new StudentViewAttendance(loggedInUser, labelZeor);
             AttendanceStudent.Show();
             this.Hide();
 
@@ -58,28 +59,28 @@ namespace Monitoring
 
         private void pictureBox5_Click_1(object sender, EventArgs e)
         {
-            Mission StudentMission = new Mission(loggedInUser);
+            Mission StudentMission = new Mission(loggedInUser, labelZeor);
             StudentMission.Show();
             this.Hide();
         }
 
         private void label3_Click_1(object sender, EventArgs e)
         {
-            Mission StudentMission = new Mission(loggedInUser);
+            Mission StudentMission = new Mission(loggedInUser, labelZeor);
             StudentMission.Show();
             this.Hide();
         }
 
         private void pictureBox7_Click_1(object sender, EventArgs e)
         {
-            Vision StudentVision = new Vision(loggedInUser);
+            Vision StudentVision = new Vision(loggedInUser, labelZeor);
             StudentVision.Show();
             this.Hide();
         }
 
         private void label4_Click_1(object sender, EventArgs e)
         {
-            Vision StudentVision = new Vision(loggedInUser);
+            Vision StudentVision = new Vision(loggedInUser, labelZeor);
             StudentVision.Show();
             this.Hide();
         }

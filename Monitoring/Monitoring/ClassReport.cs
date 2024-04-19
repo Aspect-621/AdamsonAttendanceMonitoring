@@ -15,17 +15,23 @@ namespace Monitoring
     public partial class ClassReport : Form
     {
         public List<Attendance.Status> attendanceList;
+        public string labelZeor = "";
 
-        public ClassReport(List<Attendance.Status> attendanceList)
+        public ClassReport(List<Attendance.Status> attendanceList, string labelText)
         {
             InitializeComponent();
+
+            labelZeor = labelText;
+            label7.Text = labelText;
+
+
+
             this.attendanceList = attendanceList;
             SelectedDate = DateTime.Now;
         }
 
         public DateTime SelectedDate = new DateTime();
         public int SelectedSubject;
-
         public string[] StudentName;
         public string[] StudentNo;
         public Status Status;
@@ -98,7 +104,7 @@ namespace Monitoring
 
         private void label5_Click(object sender, EventArgs e)
         {
-            TotalReport totalReport = new TotalReport(StudentName, StudentNo, attendanceList);
+            TotalReport totalReport = new TotalReport(StudentName, StudentNo, attendanceList, labelZeor);
             totalReport.Show();
             this.Hide();
         }
@@ -205,9 +211,24 @@ namespace Monitoring
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            TotalReport totalReport = new TotalReport(StudentName, StudentNo, attendanceList);
+            TotalReport totalReport = new TotalReport(StudentName, StudentNo, attendanceList, labelZeor);
             totalReport.Show();
             this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -12,6 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using GroupBox = System.Windows.Forms.GroupBox;
 using RadioButton = System.Windows.Forms.RadioButton;
 using static Monitoring.Login;
+using System.Reflection.Emit;
 
 namespace Monitoring
 {
@@ -110,16 +111,16 @@ namespace Monitoring
             "202310728",
             "202312834",
             "202312647" };
-             */   
+             */
         //FOR TEST CASE
-        public string[] students = {             
+        public string[] students = {
             "GAPASIN, Michael Andrei",
             "GARCIA, Enjo Mae",
             "GRICO, Cirgs Alyxander",
             "LEYESA, Dann Martin",
             "LUZON, Adrian Dominic",
             "MADIO, Jonalyn" };
-        public string[] studentID = { 
+        public string[] studentID = {
             "202312225",
             "202311127",
             "202312392",
@@ -147,8 +148,9 @@ namespace Monitoring
             }
 
         }
+        public string labelZeor = "";
 
-        public Attendance(UserData userData)
+        public Attendance(UserData userData, string textLabel)
         {
             InitializeComponent();
             CreateGroupBoxes();
@@ -156,6 +158,17 @@ namespace Monitoring
             attendanceStatus = new int[students.Length];
             comboBox1.SelectedIndex = 0;
             date = DateTime.Today;
+            labelZeor = textLabel;
+            int index = comboBox1.FindStringExact(labelZeor);
+            if (index != -1)
+            {
+                label6.Text = textLabel;
+                comboBox1.SelectedIndex = index;
+            }
+            else
+            {
+                MessageBox.Show("Item not found in ComboBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         private void CreateGroupBoxes()
         {
@@ -166,7 +179,7 @@ namespace Monitoring
                 groupBox.Text = students[i];
 
                 //label = student num
-                Label label = new Label();
+                System.Windows.Forms.Label label = new System.Windows.Forms.Label();
                 label.Text = studentID[i];
                 label.Location = new System.Drawing.Point(150, -1);
 
@@ -301,9 +314,9 @@ namespace Monitoring
             }
         }
 
-                private void label3_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            ClassReport classReport = new ClassReport(attendanceList);
+            ClassReport classReport = new ClassReport(attendanceList, labelZeor);
             classReport.GetData(students, studentID, subject);
             classReport.Show();
             this.Hide();
@@ -311,7 +324,7 @@ namespace Monitoring
         }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            ClassReport classReport = new ClassReport(attendanceList);
+            ClassReport classReport = new ClassReport(attendanceList, labelZeor);
             classReport.GetData(students, studentID, subject);
             classReport.Show();
             this.Hide();
@@ -378,14 +391,14 @@ namespace Monitoring
 
         private void label4_Click(object sender, EventArgs e)
         {
-            TotalReport totalReport = new TotalReport(students, studentID, attendanceList);
+            TotalReport totalReport = new TotalReport(students, studentID, attendanceList, labelZeor);
             totalReport.Show();
             this.Hide();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            TotalReport totalReport = new TotalReport(students, studentID, attendanceList);
+            TotalReport totalReport = new TotalReport(students, studentID, attendanceList, labelZeor);
             totalReport.Show();
             this.Hide();
         }

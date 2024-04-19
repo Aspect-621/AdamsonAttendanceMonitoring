@@ -63,11 +63,8 @@
             label16 = new Label();
             pictureBox13 = new PictureBox();
             pictureBox14 = new PictureBox();
-            pictureBox15 = new PictureBox();
             label17 = new Label();
             label18 = new Label();
-            label19 = new Label();
-            button1 = new Button();
             comboBox1 = new ComboBox();
             label20 = new Label();
             label8 = new Label();
@@ -92,7 +89,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -323,7 +319,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.SteelBlue;
             label5.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(182, 57);
+            label5.Location = new Point(338, 57);
             label5.Name = "label5";
             label5.Size = new Size(108, 30);
             label5.TabIndex = 29;
@@ -333,7 +329,7 @@
             // pictureBox10
             // 
             pictureBox10.BackColor = Color.MintCream;
-            pictureBox10.Location = new Point(221, 102);
+            pictureBox10.Location = new Point(224, 95);
             pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(102, 15);
@@ -343,7 +339,7 @@
             // pictureBox9
             // 
             pictureBox9.BackColor = Color.MintCream;
-            pictureBox9.Location = new Point(328, 102);
+            pictureBox9.Location = new Point(331, 95);
             pictureBox9.Margin = new Padding(3, 2, 3, 2);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(102, 15);
@@ -353,7 +349,7 @@
             // pictureBox11
             // 
             pictureBox11.BackColor = Color.MintCream;
-            pictureBox11.Location = new Point(435, 102);
+            pictureBox11.Location = new Point(438, 95);
             pictureBox11.Margin = new Padding(3, 2, 3, 2);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(102, 15);
@@ -363,7 +359,7 @@
             // pictureBox12
             // 
             pictureBox12.BackColor = Color.MintCream;
-            pictureBox12.Location = new Point(542, 102);
+            pictureBox12.Location = new Point(545, 95);
             pictureBox12.Margin = new Padding(3, 2, 3, 2);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(102, 15);
@@ -374,7 +370,7 @@
             // 
             label9.AutoSize = true;
             label9.BackColor = Color.MintCream;
-            label9.Location = new Point(308, 102);
+            label9.Location = new Point(311, 95);
             label9.Name = "label9";
             label9.Size = new Size(13, 15);
             label9.TabIndex = 54;
@@ -384,7 +380,7 @@
             // 
             label10.AutoSize = true;
             label10.BackColor = Color.MintCream;
-            label10.Location = new Point(415, 102);
+            label10.Location = new Point(418, 95);
             label10.Name = "label10";
             label10.Size = new Size(13, 15);
             label10.TabIndex = 55;
@@ -394,7 +390,7 @@
             // 
             label11.AutoSize = true;
             label11.BackColor = Color.MintCream;
-            label11.Location = new Point(522, 102);
+            label11.Location = new Point(525, 95);
             label11.Name = "label11";
             label11.Size = new Size(13, 15);
             label11.TabIndex = 56;
@@ -404,7 +400,7 @@
             // 
             label12.AutoSize = true;
             label12.BackColor = Color.MintCream;
-            label12.Location = new Point(628, 102);
+            label12.Location = new Point(631, 95);
             label12.Name = "label12";
             label12.Size = new Size(13, 15);
             label12.TabIndex = 57;
@@ -415,7 +411,7 @@
             label13.AutoSize = true;
             label13.BackColor = Color.MintCream;
             label13.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(245, 104);
+            label13.Location = new Point(248, 97);
             label13.Name = "label13";
             label13.Size = new Size(45, 13);
             label13.TabIndex = 58;
@@ -427,7 +423,7 @@
             label14.AutoSize = true;
             label14.BackColor = Color.MintCream;
             label14.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label14.Location = new Point(355, 104);
+            label14.Location = new Point(358, 97);
             label14.Name = "label14";
             label14.Size = new Size(43, 13);
             label14.TabIndex = 59;
@@ -439,7 +435,7 @@
             label15.AutoSize = true;
             label15.BackColor = Color.MintCream;
             label15.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.Location = new Point(467, 104);
+            label15.Location = new Point(470, 97);
             label15.Name = "label15";
             label15.Size = new Size(28, 13);
             label15.TabIndex = 60;
@@ -451,7 +447,7 @@
             label16.AutoSize = true;
             label16.BackColor = Color.MintCream;
             label16.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.Location = new Point(558, 104);
+            label16.Location = new Point(561, 97);
             label16.Name = "label16";
             label16.Size = new Size(48, 13);
             label16.TabIndex = 61;
@@ -461,7 +457,7 @@
             // pictureBox13
             // 
             pictureBox13.BackColor = Color.MintCream;
-            pictureBox13.Location = new Point(255, 136);
+            pictureBox13.Location = new Point(209, 120);
             pictureBox13.Margin = new Padding(3, 2, 3, 2);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(108, 15);
@@ -471,29 +467,19 @@
             // pictureBox14
             // 
             pictureBox14.BackColor = Color.MintCream;
-            pictureBox14.Location = new Point(370, 136);
+            pictureBox14.Location = new Point(324, 120);
             pictureBox14.Margin = new Padding(3, 2, 3, 2);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(108, 15);
             pictureBox14.TabIndex = 63;
             pictureBox14.TabStop = false;
             // 
-            // pictureBox15
-            // 
-            pictureBox15.BackColor = Color.MintCream;
-            pictureBox15.Location = new Point(491, 136);
-            pictureBox15.Margin = new Padding(3, 2, 3, 2);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(108, 15);
-            pictureBox15.TabIndex = 64;
-            pictureBox15.TabStop = false;
-            // 
             // label17
             // 
             label17.AutoSize = true;
             label17.BackColor = Color.MintCream;
             label17.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.Location = new Point(263, 136);
+            label17.Location = new Point(217, 120);
             label17.Name = "label17";
             label17.Size = new Size(91, 13);
             label17.TabIndex = 65;
@@ -512,43 +498,21 @@
             label18.Text = "Status";
             label18.TextAlign = ContentAlignment.TopCenter;
             // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.BackColor = Color.MintCream;
-            label19.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label19.Location = new Point(522, 138);
-            label19.Name = "label19";
-            label19.Size = new Size(38, 13);
-            label19.TabIndex = 67;
-            label19.Text = "Grade";
-            label19.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(13, 317);
-            button1.Name = "button1";
-            button1.Size = new Size(147, 45);
-            button1.TabIndex = 68;
-            button1.Text = "FOR CHECKING(CONSOLE.)";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "APPLICATIONS DEVT LAB", "APPLICATIONS DEVT LEC", "COMPUTER PROG LAB", "COMPUTER PROG LEC", "OBJECT ORIENTED PROG LAB", "OBJECT ORIENTED PROG LEC" });
-            comboBox1.Location = new Point(522, 66);
+            comboBox1.Location = new Point(470, 114);
             comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(165, 23);
+            comboBox1.Size = new Size(201, 23);
             comboBox1.TabIndex = 70;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(479, 72);
+            label20.Location = new Point(432, 120);
             label20.Name = "label20";
             label20.Size = new Size(37, 15);
             label20.TabIndex = 69;
@@ -559,7 +523,7 @@
             label8.AutoSize = true;
             label8.BackColor = Color.SteelBlue;
             label8.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(300, 57);
+            label8.Location = new Point(468, 57);
             label8.Name = "label8";
             label8.Size = new Size(45, 30);
             label8.TabIndex = 71;
@@ -568,10 +532,10 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.Location = new Point(186, 155);
+            flowLayoutPanel1.Location = new Point(186, 141);
             flowLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(502, 198);
+            flowLayoutPanel1.Size = new Size(502, 212);
             flowLayoutPanel1.TabIndex = 72;
             // 
             // label21
@@ -579,7 +543,7 @@
             label21.AutoSize = true;
             label21.BackColor = Color.MintCream;
             label21.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label21.Location = new Point(409, 138);
+            label21.Location = new Point(363, 122);
             label21.Name = "label21";
             label21.Size = new Size(39, 13);
             label21.TabIndex = 73;
@@ -597,11 +561,8 @@
             Controls.Add(label8);
             Controls.Add(comboBox1);
             Controls.Add(label20);
-            Controls.Add(button1);
-            Controls.Add(label19);
             Controls.Add(label18);
             Controls.Add(label17);
-            Controls.Add(pictureBox15);
             Controls.Add(pictureBox14);
             Controls.Add(pictureBox13);
             Controls.Add(label16);
@@ -654,7 +615,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -695,11 +655,8 @@
         private Label label16;
         private PictureBox pictureBox13;
         private PictureBox pictureBox14;
-        private PictureBox pictureBox15;
         private Label label17;
         private Label label18;
-        private Label label19;
-        private Button button1;
         private ComboBox comboBox1;
         private Label label20;
         private Label label8;

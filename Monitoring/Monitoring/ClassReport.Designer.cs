@@ -155,6 +155,7 @@ namespace Monitoring
             panel2.Name = "panel2";
             panel2.Size = new Size(159, 43);
             panel2.TabIndex = 15;
+            panel2.Paint += panel2_Paint;
             // 
             // label2
             // 
@@ -215,6 +216,7 @@ namespace Monitoring
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 18;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // label22
             // 
@@ -329,6 +331,7 @@ namespace Monitoring
             label7.Size = new Size(222, 32);
             label7.TabIndex = 21;
             label7.Text = "NAME OF COURSE";
+            label7.Click += label7_Click;
             // 
             // dateTimePicker1
             // 
