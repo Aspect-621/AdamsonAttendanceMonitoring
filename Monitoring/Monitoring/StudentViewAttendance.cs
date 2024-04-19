@@ -189,42 +189,52 @@ namespace Monitoring
         {
             flowLayoutPanel1.Controls.Clear();
 
-            // Get the selected subject from the ComboBox
-            string selectedSubject = comboBox1.SelectedItem.ToString();
-
-            // Filter attendance records for the selected subject and logged-in user
-            List<StudentAttendance> attendanceRecords = Student.AttendanceRecords;
-            List<StudentAttendance> studentRecordsForSubject = attendanceRecords
-                .Where(record => record.StudentName == loggedInUser.FullName && record.Subject == selectedSubject)
-                .ToList();
-
-            // Group attendance records by date
-            var groupedRecords = studentRecordsForSubject.GroupBy(record => record.Date);
-
-            if (groupedRecords.Any())
+            if (comboBox1.SelectedItem != null)
             {
-                foreach (var group in groupedRecords)
+                // Get the selected subject from the ComboBox
+                string selectedSubject = comboBox1.SelectedItem.ToString();
+
+                // Filter attendance records for the selected subject and logged-in user
+                List<StudentAttendance> attendanceRecords = Student.AttendanceRecords;
+                List<StudentAttendance> studentRecordsForSubject = attendanceRecords
+                    .Where(record => record.StudentName == loggedInUser.FullName && record.Subject == selectedSubject)
+                    .ToList();
+
+                // Group attendance records by date
+                var groupedRecords = studentRecordsForSubject.GroupBy(record => record.Date);
+
+                if (groupedRecords.Any())
                 {
-                    GroupBox groupBox = new GroupBox();
-                    groupBox.Text = $"Date: {group.Key}";
-
-                    foreach (var studentRecord in group)
+                    foreach (var group in groupedRecords)
                     {
-                        Label attendanceStatus = new Label();
-                        attendanceStatus.Text = $"Status: {GetAttendanceStatus(studentRecord.AttendanceStatus)}";
-                        attendanceStatus.Location = new System.Drawing.Point(10, 20 + groupBox.Controls.Count * 30);
+                        GroupBox groupBox = new GroupBox();
+                        groupBox.Text = "";
 
-                        groupBox.Controls.Add(attendanceStatus);
+                        foreach (var studentRecord in group)
+                        {
+                            // Display only the attendance record of the logged-in user
+                            if (studentRecord.StudentName == loggedInUser.FullName)
+                            {
+                                Label dateLabel = new Label();
+                                dateLabel.Text = $"{studentRecord.Date}";
+                                dateLabel.Location = new Point(90, 0 );
+                                groupBox.Controls.Add(dateLabel);
+
+                                Label statusLabel = new Label();
+                                statusLabel.Text = $"{GetAttendanceStatus(studentRecord.AttendanceStatus)}";
+                                statusLabel.Location = new Point(215, 0 );
+                                groupBox.Controls.Add(statusLabel);
+                            }
+                        }
+
+                        groupBox.Size = new Size(470, 25);
+                        flowLayoutPanel1.Controls.Add(groupBox);
                     }
-
-                    groupBox.Size = new System.Drawing.Size(470, 50 + group.Count() * 30);
-
-                    flowLayoutPanel1.Controls.Add(groupBox);
                 }
-            }
-            else
-            {
-                MessageBox.Show($"No attendance records found for the selected subject: {selectedSubject}.");
+                else
+                {
+                    MessageBox.Show($"No attendance records found for the selected subject: {selectedSubject}.");
+                }
             }
         }
     }

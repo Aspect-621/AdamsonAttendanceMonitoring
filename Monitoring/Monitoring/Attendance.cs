@@ -273,7 +273,7 @@ namespace Monitoring
             string selectedSubject = comboBox1.SelectedItem.ToString();
 
             // Get the current date without the time component
-            DateTime currentDate = DateTime.Today;
+            DateTime currentDate = dateTimePicker1.Value.Date;
 
             // Update the attendance records in the Student class
             for (int i = 0; i < students.Length; i++)
